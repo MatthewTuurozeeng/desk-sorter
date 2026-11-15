@@ -28,11 +28,11 @@ instead of crashing.
 
 ## 3. Run it
 
-Use Python 3.11. TensorFlow doesn't install on 3.14.
+Use Python 3.10 to 3.13. TensorFlow has no stable build for 3.14 yet.
 
 ```bash
 cd desk-sorter
-python3.11 -m venv .venv          # only the first time
+python3.13 -m venv .venv          # only the first time
 source .venv/bin/activate
 pip install -r requirements.txt   # only the first time
 streamlit run app.py
