@@ -3,6 +3,10 @@
 A Streamlit app that runs my Teachable Machine model (Pen / Phone / Water bottle)
 on new photos and shows the predicted class with its confidence.
 
+**Live app:** https://desk-sorter-app.streamlit.app/
+
+If the page says the app has gone to sleep, click the button to wake it up and give it about 30 seconds.
+
 ## 1. Export the model from Teachable Machine
 
 1. Open the project, then click **Export Model**.
