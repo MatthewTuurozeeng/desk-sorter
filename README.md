@@ -1,4 +1,4 @@
-# Desk Sorter: CS111 Assignment 2 bonus
+# Desk Sorter
 
 A Streamlit app that runs my Teachable Machine model (Pen / Phone / Water bottle)
 on new photos and shows the predicted class with its confidence.
@@ -23,8 +23,8 @@ desk-sorter/
 ├── requirements.txt
 ├── .streamlit/config.toml     (colours and theme)
 └── model/
-    ├── keras_model.h5         <- put it here
-    └── labels.txt             <- put it here
+    ├── keras_model.h5         
+    └── labels.txt             
 ```
 
 Keep the file names as they are. If the files aren't there, the app shows these steps
